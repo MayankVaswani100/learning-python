@@ -12,3 +12,4 @@
   cd # the directory where main.py is stored
   python main.py
   ```
+* To contact me [Join the support server!!](https://discord.gg/nZTfXVkwg7 "Support Server")
