@@ -86,3 +86,37 @@ x = 1
 while x == 1:
   print("Hello Python!!")
   x += 1
+
+# Slice Opeator (Works on strings, lists and tuples)
+slice1 = [0,1,2,3,4,5,6,7,8,9,10]
+sliced = slice1[1:9:3] # Start at 1, Stop at 9 and Increment by 1
+sliced2 = slice1[::-1] # This will reverse a list
+
+# Sets (Does not track the indexs and is super fast)
+set1 = set() # Use this if you know the set is going to be empty
+set2 = {1,2,456,78,"hola"} # Use this if you know the set is not going to be empty
+set2.remove("hola") # Remove a element from the set
+set1.add(1) # Add a element to the set
+print(1 in set1) # Check if that element is in the set
+set1.difference(set2) # Difference between two sets
+set1.union(set2) # Add to sets
+set1.intersection(set2) # Find out the same elements between two sets
+
+# Dicts/Dictioneres
+dict1 = {
+  "name": "Mayank",
+  "age": 13 
+}
+
+dict1.values() # No of values in the dictionary
+del dict1["name"] # Delete the key
+dict1.keys() # No of keys in the dictionary
+
+# Functions
+def func():
+  print("hello python")
+func()
+
+def add(num1, num2):
+  print(num1 + num2)
+add(1, 2)
