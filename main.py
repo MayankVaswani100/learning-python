@@ -72,6 +72,8 @@ list1.append("5666.00.0") ## Add/Appends a item to a list
 list1.extend([1, 2, True, False, "hello World"]) ## Adds/Appends every item from the list to a list
 list1.pop(2) ## Remove the last item of the list if the index is not provided
 print(list1[1]) ## Print the item of a specific index
+print(list1[::-1]) ##Reverses the list
+
 
 # Tuples(Are not mutable/Cannot be changed)
 tuple1 = (0,102,0.4,5)
